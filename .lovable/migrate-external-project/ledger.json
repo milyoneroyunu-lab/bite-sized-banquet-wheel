@@ -1,0 +1,11 @@
+[
+ {"capability":"code","source":"GitHub ysehir329-web/bite-sized-gathering-wheel (all routes, components, assets, tests, cark.html, Vercel/Netlify config)","outcome":"copy","status":"verified","next_action":"none"},
+ {"capability":"schema","source":"menu_categories, menu_items, menu_reviews, guest_comments, wheel_settings, wheel_wins, wheel_spins, wheel_ip_spins, wheel_claims, admin_pin_attempts, spin_wheel(), spin_wheel_guest()","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"records","source":"Live site menu (4 categories, 10 items with original IDs), 2 guest comments, wheel display settings","outcome":"migrate","status":"verified","next_action":"none"},
+ {"capability":"wheel private data","source":"Per-prize daily limits, past spins and prize codes are private in the old database","outcome":"migrate","status":"accepted","next_action":"Defaults applied; public wheel settings matched the live site"},
+ {"capability":"auth","source":"None (passwordless dashboard)","outcome":"not needed","status":"accepted","next_action":"none"},
+ {"capability":"file storage","source":"Private menu-photos bucket","outcome":"migrate","status":"verified","next_action":"Bucket created; live menu used only built-in photos"},
+ {"capability":"assets","source":"Ummasbun logo","outcome":"re-upload","status":"verified","next_action":"none"},
+ {"capability":"QR cutover","source":"QR hidden in editor until published","outcome":"cutover","status":"pending","next_action":"Publish; QR then targets <published>/menu"},
+ {"capability":"verification","source":"tests 36/36, dashboard, guest menu, wheel config+spin","outcome":"verify","status":"verified","next_action":"none"}
+]
